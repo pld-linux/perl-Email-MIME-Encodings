@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Email
-%define	pnam	MIME-Encodings
+%define		pdir	Email
+%define		pnam	MIME-Encodings
 Summary:	Email::MIME::Encodings - a unified interface to MIME encoding and decoding
 Summary(pl):	Email::MIME::Encodings - jednolity interfejs do kodowania i dekodowania MIME
 Name:		perl-Email-MIME-Encodings
