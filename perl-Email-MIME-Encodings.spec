@@ -18,9 +18,8 @@ Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
-#BuildRequires:	perl(MIME::Base64) >= 3.05
-#BuildRequires:	perl(MIME::QuotedPrint) >= 3.03
 BuildRequires:	perl-MIME-Base64 >= 3.05
+BuildRequires:	perl(MIME::QuotedPrint) >= 3.03
 %endif
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
