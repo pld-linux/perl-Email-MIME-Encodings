@@ -11,7 +11,7 @@ Name:		perl-Email-MIME-Encodings
 Version:	1.1
 Release:	1
 # same as perl
-License:	GPL/Artistic
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	9dc94a2052e8c02a2b2b0926731ffa72
