@@ -6,7 +6,7 @@
 %define	pdir	Email
 %define	pnam	MIME-Encodings
 Summary:	Email::MIME::Encodings - A unified interface to MIME encoding and decoding
-#Summary(pl):	
+Summary(pl):	Email::MIME::Encodings - jednolity interfejs do kodowania i dekodowania MIME
 Name:		perl-Email-MIME-Encodings
 Version:	1.0
 Release:	1
@@ -25,12 +25,14 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-This module simply wraps C<MIME::Base64> and C<MIME::QuotedPrint>
-so that you can throw the contents of a C<Content-Transfer-Encoding>
-header at some text and have the right thing happen.
+This module simply wraps MIME::Base64 and MIME::QuotedPrint so that
+you can throw the contents of a Content-Transfer-Encoding header at
+some text and have the right thing happen.
 
-# %description -l pl
-# TODO
+%description -l pl
+Ten modu³ w prosty sposób obudowuje MIME::Base64 i MIME::QuotedPrint
+tak, ¿e mo¿na rzutowaæ zawarto¶æ nag³ówka Content-Transfer-Encoding na
+jaki¶ tekst i wtedy stanie siê to, co powinno.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
@@ -54,5 +56,6 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Changes
+%dir %{perl_vendorlib}/Email/MIME
 %{perl_vendorlib}/Email/MIME/*.pm
 %{_mandir}/man3/*
