@@ -9,7 +9,7 @@ Summary:	Email::MIME::Encodings - a unified interface to MIME encoding and decod
 Summary(pl):	Email::MIME::Encodings - jednolity interfejs do kodowania i dekodowania MIME
 Name:		perl-Email-MIME-Encodings
 Version:	1.3
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
