@@ -8,13 +8,13 @@
 Summary:	Email::MIME::Encodings - A unified interface to MIME encoding and decoding
 Summary(pl):	Email::MIME::Encodings - jednolity interfejs do kodowania i dekodowania MIME
 Name:		perl-Email-MIME-Encodings
-Version:	1.0
+Version:	1.1
 Release:	1
 # same as perl
 License:	GPL/Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	331da19650f18643119c85d230f1401f
+# Source0-md5:	9dc94a2052e8c02a2b2b0926731ffa72
 BuildRequires:	perl-devel >= 5.6
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{!?_without_tests:1}0
