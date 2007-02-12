@@ -6,7 +6,7 @@
 %define		pdir	Email
 %define		pnam	MIME-Encodings
 Summary:	Email::MIME::Encodings - a unified interface to MIME encoding and decoding
-Summary(pl):	Email::MIME::Encodings - jednolity interfejs do kodowania i dekodowania MIME
+Summary(pl.UTF-8):   Email::MIME::Encodings - jednolity interfejs do kodowania i dekodowania MIME
 Name:		perl-Email-MIME-Encodings
 Version:	1.3
 Release:	2
@@ -29,10 +29,10 @@ This module simply wraps MIME::Base64 and MIME::QuotedPrint so that
 you can throw the contents of a Content-Transfer-Encoding header at
 some text and have the right thing happen.
 
-%description -l pl
-Ten modu³ w prosty sposób obudowuje MIME::Base64 i MIME::QuotedPrint
-tak, ¿e mo¿na rzutowaæ zawarto¶æ nag³ówka Content-Transfer-Encoding na
-jaki¶ tekst i wtedy stanie siê to, co powinno.
+%description -l pl.UTF-8
+Ten moduÅ‚ w prosty sposÃ³b obudowuje MIME::Base64 i MIME::QuotedPrint
+tak, Å¼e moÅ¼na rzutowaÄ‡ zawartoÅ›Ä‡ nagÅ‚Ã³wka Content-Transfer-Encoding na
+jakiÅ› tekst i wtedy stanie siÄ™ to, co powinno.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
