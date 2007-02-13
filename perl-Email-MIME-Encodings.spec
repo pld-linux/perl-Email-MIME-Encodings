@@ -6,7 +6,7 @@
 %define		pdir	Email
 %define		pnam	MIME-Encodings
 Summary:	Email::MIME::Encodings - a unified interface to MIME encoding and decoding
-Summary(pl.UTF-8):   Email::MIME::Encodings - jednolity interfejs do kodowania i dekodowania MIME
+Summary(pl.UTF-8):	Email::MIME::Encodings - jednolity interfejs do kodowania i dekodowania MIME
 Name:		perl-Email-MIME-Encodings
 Version:	1.3
 Release:	2
