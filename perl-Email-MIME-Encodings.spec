@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	Email
 %define		pnam	MIME-Encodings
 Summary:	Email::MIME::Encodings - a unified interface to MIME encoding and decoding
